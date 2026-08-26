@@ -7,9 +7,9 @@ class Personagem:
 
     # Construtor com parâmetros padrão
     def __init__(self, nome="Personagem", vida=100, nivel=1):
-        self.nome = nome
-        self.vida = vida
-        self.nivel = nivel
+        self._nome = nome
+        self._vida = vida
+        self._nivel = nivel
 
     @property
     def nome(self):
