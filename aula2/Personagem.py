@@ -4,9 +4,9 @@
 # Classe com atributos e comportamentos de cada pesonagem
 class Personagem:
     def __init__(self):
-        self.nome = ""
-        self.vida = 100
-        self.forca = 10
+        self._nome = ""
+        self._vida = 100
+        self._forca = 10
 
 
     def receberDano(self, dano):
